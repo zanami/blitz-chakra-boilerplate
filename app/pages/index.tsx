@@ -24,6 +24,7 @@ import Layout from "app/core/layouts/Layout"
 import { BlitzPage, Link, Routes, useMutation } from "blitz"
 import React, { Suspense } from "react"
 import { FaHeart } from "react-icons/fa"
+import Avatar from "app/core/components/Avatar"
 
 /*
  * This file is just for a pleasant getting started page for your new app.
@@ -93,6 +94,7 @@ const Home: BlitzPage = () => {
           <Text fontWeight="bold">
             To add a new model to your app, run the following in your terminal:
           </Text>
+          <Avatar />
 
           <Code p={3}>blitz generate all project name:string</Code>
 
